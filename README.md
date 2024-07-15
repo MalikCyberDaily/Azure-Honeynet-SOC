@@ -37,7 +37,7 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ![Windows RDP/SMB Auth Failures](https://i.imgur.com/qPmicPj.png)<br>
 ![Mssql Auth Failures](https://i.imgur.com/9LX87jh.png)<br>
 
-## Metrics After Hardening / Security Controls
+## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
 Start Time 2024-07-1 08:56:09
@@ -51,7 +51,7 @@ Stop Time 2024-07-2 08:56:09
 | SecurityIncident         | 272
 | AzureNetworkAnalytics_CL | 1766
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
