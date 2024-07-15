@@ -31,7 +31,7 @@ In this project, a mini honeynet was constructed within the Azure platform. The 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/ThLNrOh.jpeg)
 
-During the "BEFORE" stage of the project, a virtual environment was deployed and exposed to the public for malicious actors to discover. The intent for this stage was to attract bad actors and observe their attack patterns. To achieve this, A Windows virtual machine hosting a SQL database was deployed and a Linux server both had their network security groups (NSGs) had Allow All configured. To entice these attackers even further, a storage account and key vault were deployed with public endpoints which were visible on the open internet. In this stage, the unsecured environment was monitored by Microsoft Sentinel using logs aggregated by the Log Analytics workspace.
+During the "BEFORE" stage of the project, <a href="https://github.com/MalikCyberDaily/Creating-Azure-Honeypot/tree/main">a virtual environment was deployed </a> and exposed to the public for malicious actors to discover. The intent for this stage was to attract bad actors and observe their attack patterns. To achieve this, A Windows virtual machine hosting a SQL database was deployed and a Linux server both had their network security groups (NSGs) had Allow All configured. To entice these attackers even further, a storage account and key vault were deployed with public endpoints which were visible on the open internet. In this stage, the unsecured environment was monitored by Microsoft Sentinel using logs aggregated by the Log Analytics workspace.
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
