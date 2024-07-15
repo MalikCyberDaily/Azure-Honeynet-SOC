@@ -37,7 +37,7 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ![Windows RDP/SMB Auth Failures](https://i.imgur.com/qPmicPj.png)<br>
 ![Mssql Auth Failures](https://i.imgur.com/9LX87jh.png)<br>
 
-## Metrics Before Hardening / Security Controls
+## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
 Start Time 2024-07-1 08:56:09
